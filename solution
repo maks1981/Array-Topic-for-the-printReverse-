@@ -1,0 +1,24 @@
+// Topic for the printReverse()
+
+//Write a function printReverse() that takes an array as an argument 
+//and prints out the elements in the array in reverse order
+//(don't actually reverse the array itself)
+
+function printReverse(arr){
+    for(var i = arr.length - 1; i >= 0; i--){
+        console.log(arr[i]);}
+    }
+    printReverse([5,4,3,2,1,0])//enter
+0
+1
+2
+3
+4
+5
+undefined
+
+
+
+
+
+
